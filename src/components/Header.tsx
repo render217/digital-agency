@@ -7,7 +7,6 @@ import {
   PopoverTrigger,
 } from '@/components/ui/popover';
 import { AlignJustify } from 'lucide-react';
-import { ClassValue } from 'clsx';
 export default function Header() {
   return (
     <header className='grid h-16 grid-cols-1 items-center md:h-20 lg:h-24'>
@@ -66,9 +65,6 @@ export default function Header() {
   );
 }
 
-type MobileNavProps = {
-  className?: ClassValue;
-};
 function MobileNav() {
   return (
     <div className='w-full'>

@@ -1,5 +1,4 @@
 import { testimonalsData } from '@/constants';
-import { Card } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 
 export default function Testimonals() {
